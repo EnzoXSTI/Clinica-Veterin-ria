@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistema Veterinário</title>
+    <link rel="stylesheet" href="">
+    <style>
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        /* Container do login - MAIOR */
+        .login-box {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+            padding: 60px 50px;
+            width: 100%;
+            max-width: 600px;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        /* Logo - MAIOR */
+        .logo {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .logo h1 {
+            color: #1e5f8a;
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .logo p {
+            color: #666;
+            font-size: 18px;
+        }
+        .input-group {
+            margin-bottom: 30px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 12px;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 18px;
+            height: 60px;
+        }
+        
+        .input-group input:focus {
+            outline: none;
+            border-color: #1e5f8a;
+        }
+        
+        /* Botão - MAIOR */
+        .login-btn {
+            width: 100%;
+            padding: 22px;
+            background-color: #1e5f8a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            height: 70px;
+            transition: background-color 0.3s;
+        }
+        
+        .login-btn:hover {
+            background-color: #15496b;
+        }
+        
+        /* Links */
+        .links {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        
+        .links a {
+            color: #1e5f8a;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <!-- Logo -->
+        <div class="logo">
+            <h1>Sistema Veterinário</h1>
+            <p>Acesso ao Sistema Administrativo</p>
+        </div>
+        
+        <!-- Formulário -->
+        <form action="index.html" method="post">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail" autocomplete="email">
+            </div>
+        
+            <div class="input-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required placeholder="Digite sua senha" autocomplete="current-password">
+            </div>
+            
+            <button type="submit" class="login-btn">ENTRAR NO SISTEMA</button>
+        </form>
+    
+</body>
+</html>

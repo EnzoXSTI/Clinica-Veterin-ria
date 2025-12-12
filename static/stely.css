@@ -1,0 +1,169 @@
+/* stely.css - layout fixo para página de login (tamanhos maiores) */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container do login (fixo) */
+.login-box{
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.14);
+  padding: 64px;
+  width: 100%;
+  max-width: 720px; /* tamanho maior, fixo */
+  margin: 20px;
+}
+
+/* Logo */
+.logo{ text-align: center; margin-bottom: 30px }
+.logo h1{ color: #1e5f8a; font-size: 34px; margin-bottom: 10px }
+.logo p{ color: #666; font-size: 18px }
+
+/* Campos do formulário */
+.input-group{ margin-bottom: 20px }
+.input-group label{ display: block; margin-bottom: 6px; color: #333; font-weight: 700 }
+.input-group input{
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 20px;
+  background: #fbfeff;
+}
+
+/* Botão */
+.login-btn{
+  width: 100%;
+  padding: 20px 22px;
+  background-color: #1e5f8a;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.login-btn:hover{ background-color: #15496b }
+
+.links{ text-align: center; margin-top: 20px }
+.links a{ color: #1e5f8a; text-decoration: none; font-size: 14px }
+.links a:hover{ text-decoration: underline }
+
+/* NOTA: layout não responsivo por solicitação do usuário */
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            /* stely.css - layout fixo para página de login (tamanhos maiores) */
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f0f8ff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                padding: 20px;
+            }
+
+            /* Container do login (fixo) */
+            .login-box{
+                background-color: #fff;
+                border-radius: 14px;
+                box-shadow: 0 12px 40px rgba(0,0,0,0.14);
+                padding: 64px;
+                width: 100%;
+                max-width: 720px; /* tamanho maior, fixo */
+                margin: 20px;
+            }
+
+            /* Logo */
+            .logo{ text-align: center; margin-bottom: 30px }
+            .logo h1{ color: #1e5f8a; font-size: 34px; margin-bottom: 10px }
+            .logo p{ color: #666; font-size: 18px }
+
+            /* Campos do formulário */
+            .input-group{ margin-bottom: 20px }
+            .input-group label{ display: block; margin-bottom: 6px; color: #333; font-weight: 700 }
+            .input-group input{
+                width: 100%;
+                padding: 18px 20px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                font-size: 20px;
+                background: #fbfeff;
+            }
+
+            /* Botão */
+            .login-btn{
+                width: 100%;
+                padding: 20px 22px;
+                background-color: #1e5f8a;
+                color: #fff;
+                border: none;
+                border-radius: 12px;
+                font-size: 20px;
+                font-weight: 800;
+                cursor: pointer;
+                margin-top: 16px;
+            }
+            .login-btn:hover{ background-color: #15496b }
+
+            .links{ text-align: center; margin-top: 20px }
+            .links a{ color: #1e5f8a; text-decoration: none; font-size: 14px }
+            .links a:hover{ text-decoration: underline }
+
+            /* NOTA: layout não responsivo por solicitação do usuário */
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        .login-btn:hover {
+            background-color: #15496b;
+        }
+        
+        /* Links */
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .links a {
+            color: #1e5f8a;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .links a:hover {
+            text-decoration: underline;
+        }
+        

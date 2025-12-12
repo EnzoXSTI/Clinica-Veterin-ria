@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema Veterinário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho com Menu -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>🏥 Sistema Veterinário</h1>
+                <p>Administração da Clínica</p>
+            </div>
+            <div class="user-info">
+                <p>Admin Veterinário</p>
+                <a href="login.html" class="logout-btn">Sair</a>
+            </div>
+        </div>
+        
+        <nav>
+            <a href="index.html" class="active">🏠 Dashboard</a>
+            <a href="consultas.html">🩺 Consultas</a>
+            <a href="pets.html">🐾 Pets</a>
+            <a href="tutores.html">👤 Tutores</a>
+            <a href="agenda.html">📅 Agenda</a>
+            <a href="usuarios.html">👥 Usuários</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <h2>📊 Dashboard - Visão Geral</h2>
+        
+        <!-- Cards de Estatísticas -->
+        <div class="cards-grid">
+            <div class="card stat-card">
+                <h3>12</h3>
+                <p>Consultas Hoje</p>
+            </div>
+            <div class="card stat-card">
+                <h3>48</h3>
+                <p>Pets Cadastrados</p>
+            </div>
+            <div class="card stat-card">
+                <h3>42</h3>
+                <p>Tutores</p>
+            </div>
+            <div class="card stat-card">
+                <h3>7</h3>
+                <p>Agendamentos Pendentes</p>
+            </div>
+        </div>
+
+        <!-- Últimas Consultas -->
+        <section class="table-section">
+            <div class="section-header">
+                <h3>📋 Últimas Consultas</h3>
+                <a href="consultas.html" class="btn-link">Ver todas →</a>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data/Hora</th>
+                        <th>Pet</th>
+                        <th>Tutor</th>
+                        <th>Veterinário</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15/05/2023 09:00</td>
+                        <td>Rex</td>
+                        <td>João Silva</td>
+                        <td>Dra. Ana</td>
+                        <td><span class="status status-realizada">Realizada</span></td>
+                    </tr>
+                    <tr>
+                        <td>15/05/2023 10:30</td>
+                        <td>Luna</td>
+                        <td>Maria Santos</td>
+                        <td>Dr. Carlos</td>
+                        <td><span class="status status-agendada">Agendada</span></td>
+                    </tr>
+                    <tr>
+                        <td>16/05/2023 14:00</td>
+                        <td>Thor</td>
+                        <td>Pedro Costa</td>
+                        <td>Dra. Ana</td>
+                        <td><span class="status status-agendada">Agendada</span></td>
+                    </tr>
+                    <tr>
+                        <td>14/05/2023 11:00</td>
+                        <td>Mel</td>
+                        <td>Ana Oliveira</td>
+                        <td>Dr. Carlos</td>
+                        <td><span class="status status-realizada">Realizada</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Próximos Agendamentos -->
+        <section class="table-section">
+            <div class="section-header">
+                <h3>⏰ Próximos Agendamentos</h3>
+                <a href="agenda.html" class="btn-link">Ver agenda →</a>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Horário</th>
+                        <th>Pet</th>
+                        <th>Procedimento</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>16/05/2023</td>
+                        <td>14:00</td>
+                        <td>Thor</td>
+                        <td>Exame de sangue</td>
+                        <td><a href="#" class="btn-small btn-edit">Editar</a></td>
+                    </tr>
+                    <tr>
+                        <td>17/05/2023</td>
+                        <td>10:00</td>
+                        <td>Bobby</td>
+                        <td>Vacinação</td>
+                        <td><a href="#" class="btn-small btn-edit">Editar</a></td>
+                    </tr>
+                    <tr>
+                        <td>18/05/2023</td>
+                        <td>11:00</td>
+                        <td>Mel</td>
+                        <td>Pós-operatório</td>
+                        <td><a href="#" class="btn-small btn-edit">Editar</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Sistema Veterinário © 2023 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
